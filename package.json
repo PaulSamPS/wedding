@@ -2,11 +2,14 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://PaulSamPS.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "export": "next export",
+    "deploy": "gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
